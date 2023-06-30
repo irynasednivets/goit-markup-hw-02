@@ -25,7 +25,7 @@ body {
     color: var(--basic-color-logo);
 }
 
-.logo link {
+.link {
     text-decoration: none;
 
 }
@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.header_li list {
+.list {
     list-style: none;
 }
 
@@ -54,13 +54,16 @@ body {
     text-decoration: none;
 }
 
-.header_menu_link {
+.link {
     text-decoration: none;
 }
 
 .header_menu_link:hover {
-    hover: var(--hover-color);
+   color:var(--hover-color);
 }
+.header_menu_link:focus {
+    color:var(--hover-color);
+ }
 
 .contacts {
     font-style: normal;
