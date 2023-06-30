@@ -15,14 +15,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -50,6 +42,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-black, #2e2f42);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 .header_menu_link:hover {
