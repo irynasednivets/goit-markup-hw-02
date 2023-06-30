@@ -76,10 +76,14 @@ header>address>ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.contacts list{
+    list-style: none;
+}
 
 .contacts_link {
     text-decoration: none;
 }
+
 
 .contacts_link:hover {
     color: var(--hover-color);
@@ -93,7 +97,7 @@ header>address>ul {
     background-color: var(--primary-black);
 }
 
-.main_title_1 {
+.main_h {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
