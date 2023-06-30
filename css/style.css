@@ -24,6 +24,10 @@ body {
     text-transform: uppercase;
     color: var(--basic-color-logo);
     text-decoration: none;
+}
+
+.logo link {
+    text-decoration: none;
 
 }
 
@@ -38,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-li {
+.header_li list {
     list-style: none;
 }
 
