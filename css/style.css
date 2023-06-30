@@ -49,7 +49,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-black);
+    color: var(--primary-black, #2e2f42P);
 }
 
 .header_menu_link:hover {
