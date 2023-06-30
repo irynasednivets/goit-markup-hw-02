@@ -96,7 +96,7 @@ body {
     color: var(--basic-white);
 }
 
-.button_order {
+.button_q {
     background-color: var(--basic-color-logo);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -107,11 +107,11 @@ body {
     cursor: pointer;
 }
 
-.button_order:hover {
+.button_q:hover {
     background-color: var(--hover-color);
 }
 
-.button_order:focus {
+.button_q:focus {
     background-color: var(--hover-color);
 }
 
