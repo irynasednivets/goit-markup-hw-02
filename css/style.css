@@ -1,3 +1,14 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --primary-black: #2e2f42;
+    --secondary-black: #434455;
+    --basic-white: #ffffff;
+    --secondary-whitecolor: #f4f4fd;
+    --basic-color-logo: #4d5ae5;
+    --hover-color: #404bbf;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -8,16 +19,41 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 117;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--basic-color-logo);
+    text-decoration: none;
+
 }
 
-.logo {
+.logo_studio {
+    color: var(--primary-black);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+header>nav>ul {
+    list-style: none;
+}
+
+.header_menu_list {
+    color: var(--primary-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-.menu_studio {
-    color: #2e2f42;
+.header_menu_link {
+    text-decoration: none;
+    hover: var(--hover-color);
 }
