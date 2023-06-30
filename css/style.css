@@ -50,14 +50,16 @@ body {
 .list {
     list-style: none;
 }
-.header_menu_link{
+
+.header_menu_li {
     color: var(--primary-black);
 }
-.header_menu_link:hover {
+
+.header_menu_li:hover {
     color: var(--hover-color);
 }
 
-.header_menu_link:focus {
+.header_menu_li:focus {
     color: var(--hover-color);
 }
 
@@ -73,15 +75,19 @@ body {
     color: var(--secondary-black);
 }
 
-.contacts_link {
+.contacts_li {
     text-decoration: none;
 }
 
-.contacts_link:hover {
+.contacts_li {
+    color: var(--secondary-black);
+}
+
+.contacts_li:hover {
     color: var(--hover-color);
 }
 
-.contacts_link:focus {
+.contacts_li:focus {
     color: var(--hover-color);
 }
 
