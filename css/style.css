@@ -36,11 +36,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-
-
 }
 
-header>nav>ul {
+li {
     list-style: none;
 }
 
@@ -77,9 +75,15 @@ header>address>ul {
 
 .contacts_link {
     text-decoration: none;
-    hover: var(--hover-color);
 }
 
+.contacts_link:hover {
+    color: var(--hover-color);
+}
+
+.contacts_link:focus {
+    color: var(--hover-color);
+}
 
 .main_title {
     background-color: var(--primary-black);
@@ -101,6 +105,13 @@ header>address>ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--basic-white);
-
     cursor: pointer;
+}
+
+.button_order:hover {
+    background-color: var(--hover-color);
+}
+
+.button_order:focus {
+    background-color: var(--hover-color);
 }
