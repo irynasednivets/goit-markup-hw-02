@@ -14,7 +14,12 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -24,11 +29,6 @@ body {
     text-transform: uppercase;
     color: var(--basic-color-logo);
 }
-
-.link {
-    text-decoration: none;
-}
-
 .logo_studio {
     color: var(--primary-black);
     font-family: "Raleway", sans-serif;
@@ -39,11 +39,6 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-
-.list {
-    list-style: none;
-}
-
 .header_menu_item {
     font-weight: 500;
     font-size: 16px;
@@ -51,6 +46,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-black);
 }
+
 .header_menu_link:hover {
     color: var(--hover-color);
 }
@@ -62,6 +58,7 @@ body {
 .contacts {
     font-style: normal;
 }
+
 .contacts_item {
     font-weight: 500;
     font-size: 16px;
@@ -69,12 +66,15 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-black);
 }
+
 .contacts_link {
     text-decoration: none;
 }
+
 .contacts_link:hover {
     color: var(--hover-color);
 }
+
 .contacts_link:focus {
     color: var(--hover-color);
 }
@@ -82,6 +82,7 @@ body {
 .main_title {
     background-color: var(--primary-black);
 }
+
 .main_h {
     font-size: 56px;
     line-height: 1.07;
@@ -104,9 +105,11 @@ body {
 .button_order:hover {
     background-color: var(--hover-color);
 }
+
 .button_order:focus {
     background-color: var(--hover-color);
 }
+
 .main_info_title {
     font-weight: 500;
     font-size: 20px;
@@ -204,7 +207,8 @@ body {
     letter-spacing: 0.02em;
 
 }
-.portfolio_but{
+
+.portfolio_but {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -214,26 +218,28 @@ body {
     background-color: var(--secondary-whitecolor);
     cursor: pointer;
 }
-.portfolio_but:hover{
+
+.portfolio_but:hover {
     color: var(--basic-white);
     background-color: var(--hover-color);
 }
-.portfolio_but:focus{
+
+.portfolio_but:focus {
     color: var(--basic-white);
-     background-color: var(--hover-color);
+    background-color: var(--hover-color);
 }
-.portfolio_img_title{
+
+.portfolio_img_title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-black);
 }
-.portfolio_img_text{
+
+.portfolio_img_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-black);
 }
-
-
