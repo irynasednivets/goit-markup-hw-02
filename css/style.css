@@ -58,6 +58,29 @@ body {
     hover: var(--hover-color);
 }
 
+.contacts {
+    font-style: normal;
+}
+
+.contacts_list {
+    list-style: none;
+}
+
+.contacts_item {
+    color: var(--secondary-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts_link {
+    text-decoration: none;
+    hover: var(--hover-color);
+}
+
+
 .main_title {
     background-color: var(--primary-black);
 }
