@@ -23,7 +23,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--basic-color-logo);
-    text-decoration: none;
 }
 
 .logo link {
@@ -57,6 +56,9 @@ body {
 
 .header_menu_link {
     text-decoration: none;
+}
+
+.header_menu_link:hover {
     hover: var(--hover-color);
 }
 
@@ -76,7 +78,8 @@ header>address>ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.contacts list{
+
+.contacts list {
     list-style: none;
 }
 
@@ -122,4 +125,50 @@ header>address>ul {
 
 .button_order:focus {
     background-color: var(--hover-color);
+}
+
+.main_info_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-black);
+
+}
+
+.main_info_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-black);
+}
+
+.main_activity_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-black);
+}
+
+.main_activity list {
+    list-style: none;
+}
+
+.main_team {
+    background-color: #f4f4fd;
+}
+
+.main_team_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-black);
+}
+
+.main_team list {
+    list-style: none;
 }
