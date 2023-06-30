@@ -59,11 +59,12 @@ body {
 }
 
 .header_menu_link:hover {
-   color:var(--hover-color);
+    color: var(--hover-color);
 }
+
 .header_menu_link:focus {
-    color:var(--hover-color);
- }
+    color: var(--hover-color);
+}
 
 .contacts {
     font-style: normal;
@@ -137,6 +138,14 @@ header>address>ul {
     letter-spacing: 0.02em;
     color: var(--primary-black);
 
+}
+
+.main_info_subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-black);
 }
 
 .main_info_text {
