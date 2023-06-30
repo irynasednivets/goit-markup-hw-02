@@ -41,7 +41,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-black, #2e2f42);
 }
 
 .link {
@@ -51,7 +50,9 @@ body {
 .list {
     list-style: none;
 }
-
+.header_menu_link{
+    color: var(--primary-black);
+}
 .header_menu_link:hover {
     color: var(--hover-color);
 }
