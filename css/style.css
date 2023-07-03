@@ -67,8 +67,8 @@ body {
     font-style: normal;
 }
 
-.contacts_item {
-    font-weight: 500;
+.contacts_link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
